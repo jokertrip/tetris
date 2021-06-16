@@ -1,0 +1,39 @@
+* {
+  font-family: 'Passion One', cursive;
+}
+
+.game {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 320px 200px;
+}
+
+.right-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.game-board {
+  border: solid 2px;
+}
+
+#tetris {
+  font-size: 60px;
+  color: #4682B4;
+  margin: 1rem;
+}
+
+.play-button {
+  background-color: #4682B4;
+  font-size: 30px;
+}
+
+p {
+  font-size: 30px;
+}
